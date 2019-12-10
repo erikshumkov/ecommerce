@@ -1,0 +1,558 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans:400,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation and search */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+}
+
+.logo {
+  margin: 0 0 5px 20px;
+  padding: 0;
+  color: #000;
+}
+
+.logo-link {
+  color: #000;
+}
+
+.ul-nav {
+  margin-right: 15px;
+}
+
+.ul-nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.ul-nav li i {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.shop-btn {
+  position: relative;
+}
+
+.shop-items {
+  display: none;
+  position: absolute;
+  top: -12px;
+  right: -10px;
+  background: coral;
+  color: #fff;
+  padding: 1px 5px;
+  border-radius: 30%;
+}
+
+.nav-search {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.menu-btn {
+  margin-left: 10px;
+}
+
+#search {
+  width: 190%;
+  margin-left: 20px;
+}
+/* Navigation and search end */
+
+/* Header presentation */
+.presentation {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://i.pinimg.com/originals/b5/5b/b0/b55bb0768faebf77101fb50bc421f9bd.jpg')
+    center/cover no-repeat;
+}
+
+.presentation-heading {
+  margin: 15px 0 0 0;
+  padding: 0 0 0 20px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.presentation-heading:nth-of-type(2) {
+  margin: 0 0 40px 0;
+}
+
+.banner {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+  padding: 2rem;
+}
+
+.banner-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.banner-btn {
+  color: #000;
+  background: #fff;
+  font-weight: bold;
+  padding: 12px 30px;
+  width: 180px;
+}
+
+.banner-btn:hover {
+  background: #000;
+  color: #fff;
+}
+/* Header presentation end */
+
+/* Products section */
+
+.items-wrapper {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.items-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  margin: 5px 10px;
+}
+
+.img-container {
+  width: 211px;
+  height: 304px;
+}
+
+.item-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* Products section end */
+
+/* The look section */
+.thelook-item {
+  position: relative;
+  margin: 15px auto;
+  color: #fff;
+  background: url('http://78.media.tumblr.com/683ed75c100946b341f4de4a1b174314/tumblr_p11wbeL5QU1r5jwlho6_500.jpg')
+    center/cover no-repeat;
+  height: 380px;
+  max-width: 420px;
+  text-align: center;
+}
+
+.second {
+  margin: 0 0 40px 0;
+}
+
+.thelook-item:nth-of-type(1) {
+  background-position-y: 30%;
+}
+
+.thelook-item:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url('https://d39l2hkdp2esp1.cloudfront.net/img/photo/184977/184977_00_2x.jpg')
+    center/cover no-repeat;
+}
+
+.second .thelook-item:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url('https://cdn.shopify.com/s/files/1/0131/9210/1952/products/merkmak-Men-Fashion-Lace-up-Ankle-Boots-High-Quality-Men-British-Boot-Autumn-Winter-Male-Botas_38c77307-cb61-4a47-9319-f48dc88db62b.jpg?v=1551953256')
+    center/cover;
+  background-position-y: 95%;
+}
+
+.second .thelook-item:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url('http://78.media.tumblr.com/186fd7e3500319b2fc0b09237179977e/tumblr_p2190gCWZE1r5jwlho4_500.jpg')
+    center/cover no-repeat;
+  background-position-y: 20%;
+}
+
+.thelook-link {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thelook-item h3 {
+  font-size: 1.9rem;
+  font-family: 'Martel Sans', sans-serif;
+  font-weight: 800;
+  text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.6);
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+.thelook-item p {
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.thelook-item p:last-child {
+  margin-top: 50px;
+}
+
+.shop-link {
+  color: #000;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 7px 27px;
+  border-radius: 10px;
+}
+/* The look section end */
+
+/* Top Brand section */
+.brands {
+  padding: 25px 0;
+}
+
+.brands h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.brand {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.brand-img {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  height: 75px;
+  width: 120px;
+}
+
+.brand-logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.peak,
+.lacoste,
+.gant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Top Brand section end */
+
+/* Shipping info */
+.ship-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(190, 190, 190, 0.3);
+  padding: 40px 0 40px 0;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+}
+
+.info-item i {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.info-item p {
+  margin: 7px 0 7px 10px;
+  font-size: 13px;
+}
+
+.info-item:nth-of-type(2) p {
+  margin-left: 15px;
+}
+
+.info-item:nth-of-type(3) p {
+  margin-left: 12px;
+}
+/* Shipping info end */
+
+/* Footer */
+footer {
+  background: #1c1c1c;
+  color: #fff;
+  padding: 50px 0 50px 20px;
+}
+
+footer p {
+  margin: 4px 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+.submitBtn {
+  width: 100%;
+  text-transform: uppercase;
+  background: #000;
+  border: none;
+  color: #fff;
+  padding: 18px 10px;
+  font-weight: bold;
+  margin-left: 0;
+}
+/* Footer end */
+
+/* Shopping bag */
+.shop-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  visibility: hidden;
+}
+
+.shop {
+  position: relative;
+}
+
+.shop h4 {
+  text-align: center;
+}
+
+.close-shop {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  font-size: 25px;
+}
+
+.shop-item {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.shop-item p:first-child {
+  font-weight: bold;
+}
+
+.shop-item p:nth-child(1n + 2) {
+  color: grey;
+}
+
+.item-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.shop-img {
+  width: 86px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+.shop-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shop-footer button {
+  margin: auto;
+  color: #fff;
+  background: #000;
+  border: none;
+}
+
+.delete-item {
+  color: white;
+  background: rgb(221, 57, 57);
+  border: none;
+  border-bottom: 2px solid rgb(150, 60, 60);
+  padding: 2px 10px;
+}
+/* Shopping bag end */
+
+/* Newsletter section */
+.newsletter {
+  padding: 80px 0;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.newsletter-p {
+  margin-bottom: 50px;
+}
+
+.newsletter-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.newsletter-firstname {
+  width: 50%;
+}
+#firstname {
+  width: 90%;
+}
+#lastname {
+  width: 90%;
+}
+
+.newsletter-lastname {
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#firstname,
+#lastname,
+#email {
+  border: 1px solid lightgrey;
+  padding: 3px 5px;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+#email {
+  width: 95%;
+}
+
+.terms {
+  margin: 10px 0 20px 0;
+}
+
+.submitBtn {
+  width: 98%;
+  cursor: pointer;
+}
+
+input {
+  color: #000;
+}
+
+::placeholder {
+  color: #000;
+}
+
+/* Newsletter end */
+
+/* Responsive design */
+
+@media screen and (min-width: 640px) {
+  .presentation {
+    background-position-y: 30%;
+  }
+
+  .thelook {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .thelook-item {
+    width: 48%;
+    max-width: 48%;
+    height: 288px;
+    margin: 8px auto;
+  }
+
+  .thelook-item:nth-of-type(4) h3 {
+    margin: 0;
+  }
+
+  .thelook-item:nth-of-type(4) p {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .presentation {
+    display: none;
+  }
+
+  .thelook-item {
+    height: 600px;
+    width: 46%;
+  }
+
+  .brand-img {
+    margin: 0 50px;
+  }
+
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .newsletter-flex,
+  .newsletter-flex2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+
+  .newsletter-email {
+    width: 50%;
+  }
+
+  .submitBtn {
+    width: 50%;
+    height: 53px;
+    align-self: flex-end;
+    margin-bottom: 8px;
+  }
+
+  .ship-info-flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Storage - Fashion Web Shop</title>
+  </head>
+  <body>
+    <div class="nav">
+      <h4 class="logo"><a href="index.html" class="logo-link">Storage</a></h4>
+
+      <ul class="ul-nav">
+        <li>
+          <a href="user/login.html" class="user">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <!-- <li>
+          <i class="far fa-heart"></i>
+        </li> -->
+        <li class="shop-btn">
+          <i class="fas fa-shopping-bag"></i>
+          <div class="shop-items">1</div>
+        </li>
+      </ul>
+    </div>
+
+    <section id="single-product">
+      <div class="grid-container">
+        <div class="product-section">
+          <div class="img-container">
+            <div class="img"></div>
+          </div>
+        </div>
+        <div class="order-section">
+          <div class="order-section__container">
+            <div class="product-information">
+              <h2>Gant</h2>
+              <h1>GANT Coat</h1>
+              <div class="price">3 899kr</div>
+              <div class="color">
+                <p>Color: Black</p>
+                <div class="color-square"></div>
+              </div>
+            </div>
+            <div class="add-to-cart">
+              <select name="size" id="size" aria-placeholder="Choose Size">
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+              </select>
+              <button>Add to cart</button>
+            </div>
+            <div class="product-specification">
+              <div class="product-info">
+                <input
+                  type="checkbox"
+                  id="description"
+                  class="checkbox-description"
+                  checked
+                />
+                <label for="description">
+                  Product Description
+                  <span class="icon">&times;</span>
+                </label>
+                <div class="content">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum temporibus nihil maxime, debitis dicta quae,
+                    consequatur repellendus deleniti totam quam, animi iste
+                    doloribus quod sint iure aperiam exercitationem
+                    necessitatibus vel?
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum temporibus nihil maxime, debitis dicta quae,
+                    consequatur repellendus deleniti totam quam, animi iste
+                    doloribus quod sint iure aperiam exercitationem
+                    necessitatibus vel?
+                  </p>
+                </div>
+              </div>
+              <div class="delivery">
+                <label for="return">
+                  Delivery & Return
+                  <span class="icon">&times;</span>
+                </label>
+                <input type="checkbox" id="return" class="checkbox-return" />
+                <div class="content">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Harum, accusantium est ea commodi ad, debitis deleniti
+                    perspiciatis sint quasi consectetur magni dolorem aliquam,
+                    ipsa aperiam eaque officia quo at recusandae.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum temporibus nihil maxime, debitis dicta quae,
+                    consequatur repellendus deleniti totam quam, animi iste
+                    doloribus quod sint iure aperiam exercitationem
+                    necessitatibus vel?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="wrapper">
+        <div class="box">
+          <h4 class="footer-heading">Contact</h4>
+
+          <div class="support">
+            <h6>Call Support</h6>
+            <p>
+              Mon - Sat 9AM - 21PM <br />
+              Sun 10AM - 17PM <br />
+              +46 (0) 8 555 33 999
+            </p>
+          </div>
+
+          <div class="email">
+            <h6><a href="mailto:storeexample999@gmail.com">Email Us</a></h6>
+          </div>
+        </div>
+
+        <div class="box">
+          <h4 class="footer-heading">Services</h4>
+
+          <div class="services">
+            <ul>
+              <li><i class="far fa-check-square"></i> Free shipping</li>
+              <li><i class="far fa-check-square"></i> Free returns</li>
+              <li><i class="far fa-check-square"></i> Öppet köp i 30 dagar</li>
+              <li><i class="far fa-check-square"></i> Reservera i butik</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="box">
+          <h4 class="footer-heading">Our Company</h4>
+
+          <div class="services">
+            <ul>
+              <li>Careers</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; 2019 store All rights reserved.
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Cart modal -->
+    <div class="shop-overlay">
+      <div class="container">
+        <h2>Cart</h2>
+        <div class="cart-item">
+          <div class="img">
+            <img src="img/products/dunjacka.png" />
+          </div>
+          <h5>Dunjacka</h5>
+          <div class="number">
+            <div class="minus">-</div>
+            <div class="text">1</div>
+            <div class="plus">+</div>
+          </div>
+          <div class="price-delete">
+            <div class="price">200$</div>
+            <div class="delete">&times;</div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <div class="img">
+            <img src="img/products/dunjacka.png" />
+          </div>
+          <h5>Dunjacka</h5>
+          <div class="number">
+            <div class="minus">-</div>
+            <div class="text">1</div>
+            <div class="plus">+</div>
+          </div>
+          <div class="price-delete">
+            <div class="price">200$</div>
+            <div class="delete">&times;</div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <div class="img">
+            <img src="img/products/dunjacka.png" />
+          </div>
+          <h5>Dunjacka</h5>
+          <div class="number">
+            <div class="minus">-</div>
+            <div class="text">1</div>
+            <div class="plus">+</div>
+          </div>
+          <div class="price-delete">
+            <div class="price">200$</div>
+            <div class="delete">&times;</div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <button><i class="fas fa-chevron-left"></i>Continue Shopping</button>
+          <div class="total">
+            <span class="sub">Subtotal:</span>
+            <span class="total-cost">
+              600$
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Cart modal end -->
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <script src="app.js"></script>
+  </body>
+</html>
