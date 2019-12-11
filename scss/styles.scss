@@ -3,6 +3,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Martel+Sans:400,700,800,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900&display=swap');
+
 @import 'variables';
 
 * {
@@ -99,15 +101,17 @@
 
 /* Top Brand section */
 .brands {
-  padding: 25px 0;
+  padding: 35px 0 20px;
+  h3 {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
 }
 
-.brands h3 {
-  text-align: center;
-  font-size: 25px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
 .brand {
   display: flex;
   justify-content: center;
@@ -155,6 +159,7 @@
 }
 
 .info-item p {
+  font-weight: bold;
   margin: 7px 0 7px 10px;
   font-size: 13px;
 }

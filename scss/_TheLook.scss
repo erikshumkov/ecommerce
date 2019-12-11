@@ -94,16 +94,17 @@
 
 .thelook-item h3 {
   font-size: 1.9rem;
-  font-family: 'Martel Sans', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-weight: 800;
   text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.6);
-  letter-spacing: -1px;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 .thelook-item p {
+  font-family: 'Heebo', sans-serif;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 300;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
 }
 
@@ -112,6 +113,7 @@
 }
 
 .shop-link {
+  font-family: 'Heebo', sans-serif;
   text-decoration: none;
   color: black;
   border: 2px solid white;
@@ -122,7 +124,7 @@
   background: white;
   padding: 10px 40px;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 700;
   z-index: 2;
   transform: translate3d(-50%, 0, 0);
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.4);

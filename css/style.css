@@ -1,6 +1,7 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Martel+Sans:400,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -20,18 +21,17 @@
   z-index: 30;
   box-shadow: 2px 0 3px rgba(0, 0, 0, 0.4); }
   .nav .logo {
-    margin: 0 0 5px 30px;
+    margin: 0 0 0 30px;
     padding: 0;
-    color: #000;
-    font-size: 1.6rem;
-    font-weight: 400;
-    letter-spacing: -1px; }
+    color: #000; }
   .nav .logo-link {
+    letter-spacing: 2px;
     text-decoration: none;
     color: #000;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
-    font-weight: 900; }
+    font-weight: 800;
+    font-family: 'Heebo', sans-serif; }
   .nav .ul-nav {
     margin-right: 30px; }
     .nav .ul-nav li {
@@ -133,21 +133,23 @@
 
 .thelook-item h3 {
   font-size: 1.9rem;
-  font-family: 'Martel Sans', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-weight: 800;
   text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.6);
-  letter-spacing: -1px;
+  letter-spacing: 2px;
   text-transform: uppercase; }
 
 .thelook-item p {
+  font-family: 'Heebo', sans-serif;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 300;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.7); }
 
 .thelook-item p:last-child {
   margin-top: 50px; }
 
 .shop-link {
+  font-family: 'Heebo', sans-serif;
   text-decoration: none;
   color: black;
   border: 2px solid white;
@@ -158,7 +160,7 @@
   background: white;
   padding: 10px 40px;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 700;
   z-index: 2;
   transform: translate3d(-50%, 0, 0);
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.4);
@@ -267,8 +269,8 @@
     #shop .wrapper .products .img-container {
       margin-bottom: 10rem; }
       #shop .wrapper .products .img-container .img {
-        position: relative;
         background: url("../../img/products/coatfk.png");
+        position: relative;
         background-size: cover;
         width: 291px;
         height: 361px;
@@ -280,6 +282,46 @@
       #shop .wrapper .products .img-container span {
         font-size: 0.9rem;
         font-weight: 400; }
+
+.img2 {
+  background: url("../../img/products/coat/peak-white.png");
+  position: relative;
+  background-size: cover;
+  width: 291px;
+  height: 361px;
+  cursor: pointer; }
+
+.img3 {
+  background: url("../../img/products/coat/lindeberg-black.png");
+  position: relative;
+  background-size: cover;
+  width: 291px;
+  height: 361px;
+  cursor: pointer; }
+
+.img4 {
+  background: url("../../img/products/coat/tiger-green.png");
+  position: relative;
+  background-size: cover;
+  width: 291px;
+  height: 361px;
+  cursor: pointer; }
+
+.img5 {
+  background: url("../../img/products/coat/peak-black.png");
+  position: relative;
+  background-size: cover;
+  width: 291px;
+  height: 361px;
+  cursor: pointer; }
+
+.img6 {
+  background: url("../../img/products/coat/tiger-brown.png");
+  position: relative;
+  background-size: cover;
+  width: 291px;
+  height: 361px;
+  cursor: pointer; }
 
 .check-option {
   margin-bottom: 5px; }
@@ -841,13 +883,14 @@ footer {
 /* Products section end */
 /* Top Brand section */
 .brands {
-  padding: 25px 0; }
-
-.brands h3 {
-  text-align: center;
-  font-size: 25px;
-  font-weight: bold;
-  text-transform: uppercase; }
+  padding: 35px 0 20px; }
+  .brands h3 {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 2rem; }
 
 .brand {
   display: flex;
@@ -889,6 +932,7 @@ footer {
   margin-right: 10px; }
 
 .info-item p {
+  font-weight: bold;
   margin: 7px 0 7px 10px;
   font-size: 13px; }
 
